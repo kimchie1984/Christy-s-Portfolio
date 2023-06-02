@@ -1,0 +1,185 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+}
+
+.container {
+    width: 570px;
+    margin: 0 auto;
+}
+
+.photo-id {
+    width: 250px;
+    height: 250px;
+    border-radius: 200px;
+    object-fit: cover;
+    object-position: top;
+    border: 10px solid #e5989b;
+}
+
+.bold-text {
+    font-weight: 900;
+    display: block;
+}
+
+h1,
+h2 {
+    font-weight: 300;
+    margin-top: 0;
+}
+
+h1 .bold-text {
+    font-size: 80px;
+}
+
+h2 .bold-text {
+    font-size: 60px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 42px;
+    border-top: solid 1px #001233;
+    border-bottom: solid 1px #001233;
+    padding: 20px 0;
+}
+
+h2:nth-last-child(2) {
+    border: none;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.accent-text {
+    display: block;
+}
+
+h1 .accent-text {
+    font-size: 80px;
+}
+
+h2 .accent-text {
+    font-size: 60px;
+}
+
+.inverse .btn:hover,
+.inverse .btn:focus {
+    background: #fff;
+    color: #33415c;
+}
+
+
+.accent-text,
+.name,
+time,
+.email {
+    font-weight: 900;
+    color: #e5989b;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.small-text {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+a {
+    color: #e5989b;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    color: #001233;
+}
+
+header,
+section {
+    padding: 100px 0;
+}
+
+.inverse {
+    color: #fff;
+    background-image: linear-gradient(#001233, #33415c, #5c677d, #979dac);
+}
+
+.btn {
+    display: inline-block;
+    color: #33415c;
+    text-decoration: none;
+    background: #e5989b;
+    padding: 15px 33px;
+    margin-top: 25px;
+    border-radius: 25px;
+    transition: 1s ease
+}
+
+.btn:hover,
+.btn:focus {
+    background: #001233;
+    color: #fff;
+    transform: scale(1.1)
+}
+
+.social {
+    margin: 30px 5px;
+}
+
+
+footer {
+    padding: 25px 0;
+    font-size: 16px;
+}
+
+.terms {
+    margin-left: 20px;
+}
+
+
+/*-------projects--------*/
+
+.project {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    object-fit: cover;
+    transition: 1s ease
+}
+
+.project:hover {
+    transform: scale(1.1)
+}
+
+.project-container {
+    margin-top: 50px;
+}
+
+.desc {
+    font-size: 12px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+
+.content-project-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px 40px;
+    margin: 30px 0 20px 0;
+}
