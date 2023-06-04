@@ -138,8 +138,14 @@ section {
 
 .social {
     margin: 30px 5px;
+    transition: 1s ease
 }
 
+.fa-linkedin:hover,
+.fa-github:hover,
+.fa-envelope:hover {
+    transform: scale(1.2)
+}
 
 footer {
     padding: 25px 0;
